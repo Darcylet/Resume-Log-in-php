@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-container {
+        width: 90%;
+        max-width: 900px;
+        background: #1e1e1e;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+.header {
+        grid-column: span 2;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+h1 {
+        font-size: 26px;
+        margin: 0;
+        color: #ffffff;
+    }
+p.subtitle {
+        font-size: 14px;
+        color: #bbbbbb;
+        margin: 3px 0 10px;
+    }
+h2 {
+        font-size: 18px;
+        margin: 0 0 6px;
+    }
+.section {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+.info h2 { color: #ff5252; }
+.skills h2 { color: #42a5f5; }
+.edu h2 { color: #66bb6a; }
+.org h2 { color: #ffb74d; }
+ul {
+        padding-left: 18px;
+        margin: 5px 0;
+    }
+li {
+        margin-bottom: 4px;
+    }
+
+
+
+/* make sure html/body take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #121212; /* dark background */
+  font-family: Arial, sans-serif;
+}
+
+/* full-viewport wrapper that centers its child */
+.auth-wrapper {
+  position: fixed;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px; /* safe spacing on small screens */
+}
+
+/* auth box */
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  background: #1e1e1e;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #2c2c2c;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.auth-container input::placeholder {
+  color: #aaa;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 15px;
+  background: #4da6ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-container button:hover {
+  background: #3399ff;
+}
+
+.auth-container p {
+  margin-top: 15px;
+  color: #ddd;
+}
+
+.auth-container a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+
+.error-message {
+    color: #ff5252;
+    margin-bottom: 15px;
+}
